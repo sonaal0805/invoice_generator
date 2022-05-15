@@ -1,0 +1,143 @@
+body{
+    background-color: #1F2937;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h1{
+    
+    font-size: 3rem;
+    color: #E5E7EB;
+}
+h3{
+    font-size: 1.4rem;
+    color: #E5E7EB;
+
+}
+.title{
+    padding: 1cm;
+    background-color: #215cda;
+}
+
+button{
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    border:none;
+    background: #BAE6FD;
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+    &:hover{
+        background-color:#215cda;
+        transition: all .1s ease-out;
+        color:#E5E7EB;
+        transform: translateY(-5px);
+    }
+
+}
+
+table{
+    margin-top: 30px;
+    margin-left: 210px;
+    margin-right: 210px;
+    color:#E0F2FE;
+    text-align: left;
+    // border:1px solid;
+
+}
+
+tr{
+    border: 1px solid;
+}
+
+th{
+    // border: 1px solid;
+    font-size: small;
+    color: #9CA3AF;
+}
+
+
+td{
+    height: 40px;
+    width: 400px;
+    vertical-align: middle;
+    // border: 1px solid;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    // font-weight:
+    color: #D1D5DB;
+}
+.amount{
+    text-align: right;
+}
+
+.dollar{
+    margin: 4px;
+    font-weight: 500;
+    color:#9CA3AF;
+}
+
+hr{
+    margin-top: 20px;
+    width: 90%;
+    color:#9CA3AF;
+}
+
+#bottom-table{
+    text-align: left;
+}
+
+.note{
+    color:#F3F4F6;
+    font-size: 0.9rem;
+}
+
+.dollar-total{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#send{
+    width: 700px;
+    background-color:#BAE6FD;
+    border: none;
+    color: #1F2937;
+    font-size: large;
+    &:hover{
+        background-color:#215cda;
+        transition: all .1s ease-out;
+        color:#E5E7EB;
+    }
+
+}
+
+.remove-btn{
+    margin-top: 3px;
+    margin-right: 2px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    height: 15px;
+    width: 70px;
+    border-radius: 8px;
+    border:none;
+    background: #BAE6FD;
+    font-size: small;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0;
+    font-weight: bold;
+  
+    
+    &:hover{
+        background-color:#215cda;
+        transition: all .1s ease-out;
+        color:#E5E7EB;
+        transform: translateY(0px);
+    }
+
+}
+
+

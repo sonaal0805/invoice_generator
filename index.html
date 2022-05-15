@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel = "stylesheet" href = index.css>
+</head>
+<body>
+    <section class = "title">
+        <h1> Invoice Creator </h1>
+        <h3>Thank you for shopping!</h3>
+    </section>
+    <section class ="options">
+        <button id = "washcar-el" onclick = addItem(id)> <span id="item">Wash Car</span> : $<span id="price">10</span></button>
+        <button id = "mowlawn-el" onclick = addItem(id)> <span id="item">Mow Lawn</span> : $<span id="price">20</span></button>
+        <button id = "pullweeds-el" onclick = addItem(id)> <span id="item">Pull Weeds</span> : $<span id="price">30</span></button>
+
+    </section>
+    <table id = "top-table">
+        <tr>
+            <th>TASK</th>
+            <th class = "remove-col"></th>
+            <th class = "amount"> TOTAL</th>
+            
+        </tr>
+        <tr class= "psuedo-row">
+            <td></td>
+            <td></td>
+            <td class = "amount"></td>
+        </tr>
+ 
+        <!-- <tr>
+            <td>Wash Car</td>
+            <td><button id = "Wash Car" class = "remove-btn" onClick = removeItem(id)>Remove</button></td>
+            <td class = "amount"><span class = "dollar">$</span>10</td>
+        </tr>
+             -->
+    </table>
+
+    <hr>
+    <table id = "bottom-table">
+        <tr>
+            <th>NOTES</th>
+            <th class = "amount"> TOTAL AMOUNT</th>
+        </tr>
+        <tr>
+            <td class = "note">We accept cash, credt card, or PayPal</td>
+            <td  class = "amount dollar-total" id = "dollar-total"><span>$0</span></td>
+        </tr>
+            
+    </table>
+    <button id = 'send'><i class="fa-solid fa-envelope"></i> Send Invoice</button>
+    <script src ="index.js"></script>
+
+    <script src="https://kit.fontawesome.com/0bef2f04bd.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -24,7 +24,7 @@ button{
     margin-top: 30px;
     margin-right: 20px;
     height: 40px;
-    width: 150px;
+    width: 20%;
     border-radius: 8px;
     border:none;
     background: #BAE6FD;
@@ -36,6 +36,7 @@ button{
         transition: all .1s ease-out;
         color:#E5E7EB;
         transform: translateY(-5px);
+        
     }
 
 }
@@ -63,7 +64,7 @@ th{
 
 td{
     height: 40px;
-    width: 400px;
+    width: 50%;
     vertical-align: middle;
     // border: 1px solid;
     font-size: larger;
@@ -101,7 +102,7 @@ hr{
     font-weight: bold;
 }
 #send{
-    width: 700px;
+    width: 70%;
     background-color:#BAE6FD;
     border: none;
     color: #1F2937;
